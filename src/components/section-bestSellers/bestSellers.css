@@ -1,0 +1,76 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#circle {
+  position: absolute;
+  width: 90vh;
+  height: 90vh;
+
+  border: 5px solid #fcfcfb;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+#circle-m {
+  position: absolute;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40vh;
+  line-height: 397px;
+  transform: translate(75%, -60%);
+  color: #fcfcfb;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 30vw;
+  height: 30vw;
+
+  /* background-color: green; */
+}
+
+.flex-container2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.third {
+  width: 30vw;
+  margin-bottom: 25px;
+}
+
+p.shop {
+  text-decoration: underline;
+}
+
+.product:nth-of-type(1) .item {
+  background-image: url("https://media.tiffany.com/is/image/Tiffany/EcomItemL2/return-to-tiffanymini-heart-tag-earrings-23900564_1016087_SV_1.jpg?&op_usm=2.0,1.0,6.0&defaultImage=NoImageAvailableInternal&");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product:nth-of-type(2) .item {
+  background-image: url("http://cdn.necklaceday.com/featured/ori-61257.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.product:nth-of-type(3) .item {
+  background-image: url("http://cdn.shopify.com/s/files/1/1490/4498/products/B299-G_B194G-AW-3_1200x1200.jpg?v=1600956773");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

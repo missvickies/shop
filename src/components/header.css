@@ -1,0 +1,29 @@
+.hero-image {
+  background-image: url("https://i.pinimg.com/originals/21/80/cd/2180cd65b8afd3d23845d03eda97b7cf.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* .hero-text {
+  text-align: left;
+  width: 300px;
+  color: white;
+} */
+
+.hero {
+  top: 55%;
+}
+
+p {
+  margin: 0px;
+  height: auto;
+  padding: none;
+  display: inline-block;
+}
+
+.btn-small {
+  padding-left: 15px;
+}

@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  background-color: #edece9;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: #5c7457;
+}
+
+.hero-text h1,
+.hero-text p {
+  color: white;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-large {
+  position: absolute;
+  width: 262px;
+  height: 76px;
+  background-color: #e1e1e1;
+}
+
+.flex-container {
+  padding: 50px;
+  position: absolute;
+  display: inline-table;
+  /* transform: translate(0, 50vh); */
+}
+
+button {
+  width: auto;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}

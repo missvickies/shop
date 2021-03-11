@@ -1,0 +1,42 @@
+.app-cursor {
+  width: 15px;
+  height: 15px;
+  border: 2px solid orange;
+  border-radius: 50%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 10000;
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+  pointer-events: none;
+}
+
+.expand {
+  border: 1px solid orange;
+  width: 70px;
+  height: 70px;
+  /* transform: scale(5); */
+}
+
+@keyframes cursorAnim3 {
+  0% {
+    width: 70px;
+    height: 70px;
+    opacity: 50%;
+  }
+  50% {
+    width: 60px;
+    height: 60px;
+  }
+  100% {
+    width: 70px;
+    height: 70px;
+    opacity: 0%;
+  }
+}
+
+.click {
+  width: 50px;
+  height: 50px;
+  animation: cursorAnim3 1s linear;
+}

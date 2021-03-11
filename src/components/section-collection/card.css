@@ -1,0 +1,18 @@
+.collection-card {
+  padding: 50px;
+  width: 50vw;
+}
+.collection-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  margin-top: 10px;
+}
+
+.chains {
+  background-image: url("../images/collection1.png");
+}
+
+.bracelets {
+  background-image: url("../images/collection2.png");
+}
